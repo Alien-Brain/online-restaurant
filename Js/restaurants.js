@@ -1,7 +1,7 @@
-var restaurents=(function(){
-    var $container=$("[name='restaurents']");
-    var $containerToHide=$("[name='category&restaurents']");
-    var $containerToShow=$("[name='restaurent&menu']");
+var restaurants=(function(){
+    var $container=$("[name='restaurants']");
+    var $containerToHide=$("[name='category&restaurants']");
+    var $containerToShow=$("[name='restaurant&menu']");
     var _url= "https://api.sheety.co/bdcbafbc1f4197dda178b9e69f6ccee9/techAlchemyWebTest1/allRestaurants";
     var _getElement=function(imageUrl,description,name,isOpen){
        return  '<div class="uk-margin-left uk-margin-top" style="max-width:400px">\
@@ -42,11 +42,11 @@ var restaurents=(function(){
         </div>\
       </div>';
     };
- var Restaurents=function(){
+ var Restaurants=function(){
     var _onClick=function(id,name){
       $containerToHide.addClass("uk-hidden"); 
       $containerToShow.removeClass("uk-hidden");
-      var _restaurent = new restaurent({id:id});
+      var _restaurant = new restaurant({id:id});
       var _menu= new menu({name:name});
       
     };
@@ -62,5 +62,5 @@ var restaurents=(function(){
 
     });
  };
- return Restaurents;
+ return Restaurants;
 })();

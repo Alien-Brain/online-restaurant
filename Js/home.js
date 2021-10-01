@@ -1,7 +1,7 @@
 var home=(function(){
     var Home=function(){
         var Category=new category();
-        var Restaurent=new restaurents();
+        var Restaurant=new restaurants();
         var Filter=new filter();
     };
     return Home;

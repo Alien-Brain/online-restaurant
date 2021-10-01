@@ -12,7 +12,7 @@ var filter=(function(){
     <div class="uk-modal-dialog uk-modal-body" style="border-radius:20px;width:400px">\
     <button class="uk-modal-close-default" type="button" uk-close></button>\
         <h2 style="font-size:x-large;font-weight:700">Search filters</h2>\
-        <h2 style="font-size:x-large;font-weight:700">sort by</h2>\
+        <h2 style="font-size:x-large;font-weight:700">Sort by</h2>\
         <div class="uk-flex uk-flex-middle">\
             <div>\
                 <span>\
@@ -24,9 +24,12 @@ var filter=(function(){
             </div>\
         </div>\
         <h2 style="font-size:x-large;font-weight:700">Cusine</h2>\
+        <div>\
         '+_getCushineElement()+'\
+        </div>\
+        <div class="uk-margin-top" style="color:#ff6933">See more</div>\
         <p class="uk-text-center">\
-            <button class="uk-button uk-button-ultra-primary uk-border-rounded" style="width:300px" type="button">Apply</button>\
+            <button class="uk-button uk-button-ultra-primary uk-border-rounded" style="width:300px" type="button">Apply filters</button>\
         </p>\
     </div>\
 </div>';

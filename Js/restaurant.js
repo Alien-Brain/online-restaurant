@@ -1,7 +1,7 @@
-var restaurent=(function(){
-    var $container=$("[name='restaurent']");
-    var _restaurentDetailsUrl="https://api.sheety.co/bdcbafbc1f4197dda178b9e69f6ccee9/techAlchemyWebTest1/restaurantDetails";
-    var _getRestaurentElement=function(iamgeUrl,description,name){
+var restaurant=(function(){
+    var $container=$("[name='restaurant']");
+    var _restaurantDetailsUrl="https://api.sheety.co/bdcbafbc1f4197dda178b9e69f6ccee9/techAlchemyWebTest1/restaurantDetails";
+    var _getRestaurantElement=function(iamgeUrl,description,name){
         return '<div class="uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>\
         <div style="border-radius:20px" class="uk-flex-last@s uk-card-media-right uk-cover-container">\
             <img src="'+iamgeUrl+'" alt="" uk-cover>\
@@ -20,17 +20,17 @@ var restaurent=(function(){
     var _getMenuElement=function(){
 
     };
-    var Restaurent = function(options){
+    var Restaurant = function(options){
       var _id=options.id;
       $.ajax({
-          url:_restaurentDetailsUrl,
+          url:_restaurantDetailsUrl,
           method:'GET'
       }).then(function(data){
           var resData=data.restaurantDetails.find(function(res){return res.id===_id });
           if(resData){
-            $container.append(_getRestaurentElement(resData.restaurantImage,resData.restaurantDescription,resData.restaurantName)); 
+            $container.append(_getRestaurantElement(resData.restaurantImage,resData.restaurantDescription,resData.restaurantName)); 
           }
       });
     };
-    return Restaurent;
+    return Restaurant;
 })();
