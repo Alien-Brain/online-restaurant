@@ -14,7 +14,7 @@ var _getElement=function(imageUrl,name,price){
     <h3 style="color: #000000c7; font-weight: 700;font-size:20px">'+name+'</h3>\
     </div>\
     <div>\
-    <h2 style="color: #8400e6; font-weight: 450;font-size:18px">'+price+'</h3>\
+    <h2 style="color: #8400e6; font-weight: 450;font-size:18px">&#163;'+price+'</h3>\
     </div>\
     </div>\
   </div>';

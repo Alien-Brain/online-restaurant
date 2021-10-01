@@ -29,7 +29,7 @@ var filter=(function(){
         </div>\
         <div class="uk-margin-top" style="color:#ff6933">See more</div>\
         <p class="uk-text-center">\
-            <button class="uk-button uk-button-ultra-primary uk-border-rounded" style="width:300px" type="button">Apply filters</button>\
+            <button class="uk-button uk-button-ultra-primary uk-border-rounded uk-text-capitalize" style="width:300px" type="button">Apply filters</button>\
         </p>\
     </div>\
 </div>';
