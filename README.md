@@ -14,3 +14,8 @@ itemCatgeory.js : Displays all the category available for menu for single restau
 home.js : instantiate category, restaurant and filter js files.
 filter.js : Displays filter light box.
 category.js : Displays Restaurant cantegory.
+
+
+
+![image](https://user-images.githubusercontent.com/50864824/135609068-896c910c-c847-4b01-8f11-e3d4a2483bab.png)
+
