@@ -19,3 +19,8 @@ category.js : Displays Restaurant cantegory.
 
 ![image](https://user-images.githubusercontent.com/50864824/135609068-896c910c-c847-4b01-8f11-e3d4a2483bab.png)
 
+![image](https://user-images.githubusercontent.com/50864824/135609202-c52f7818-d4f4-4c0d-9dfc-4651ee9e19da.png)
+
+![image](https://user-images.githubusercontent.com/50864824/135609302-10447044-5854-4883-a12f-91cd430c1c53.png)
+
+
