@@ -5,14 +5,14 @@ var getLI=function(name,icon,count){
   {
     return  '<li class="uk-background-ultra-primary uk-border-rounded" style="height: 40px;">\
     <div style="padding-top: 5px;"> \
-        <span uk-icon="'+icon+'" style="margin-right: 10px;"></span>\
+        <span uk-icon="'+icon+'" style="margin-right: 10px; margin-left:10px"></span>\
         <span class="uk-text-white">'+name+'</span>\
     </div>\
     </li>'
   }
   return  '<li class="uk-border-rounded" style="height: 40px;">\
   <div style="padding-top: 5px;"> \
-      <span uk-icon="'+icon+'" style="margin-right: 10px;"></span>\
+      <span uk-icon="'+icon+'" style="margin-right: 10px;margin-left:10px"></span>\
       <span>'+name+'</span>\
   </div>\
 </li>'

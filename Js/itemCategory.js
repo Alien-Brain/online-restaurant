@@ -20,7 +20,7 @@ var itemCategory=(function(){
      _categories.forEach(function(itemCategory){
         $container.append(_getElement(itemCategory));
      });
-     $container.children(':first').find('span').css({'color':"white",'background-color':"#8400e6"});
+     $container.children(':first').find('span').css({'color':"white",'background-color':"#4e00e6d6"});
  };
   
  return ItemCategory;
