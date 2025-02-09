@@ -1,6 +1,8 @@
 # online-restaurant
 Author - Sumant Kumar
 <br>
+Date - 09/02/2025
+<br>
 Flow:
 <br>
 Open Mater.html file in your preferred browser and you will see the left side bar and all the restaurants provided by api. on clicking any of the restaurants, more details about that restaurant will be shown along with the menu details. There is a filter button on top right corner, if you click on it the filter light box will open.
